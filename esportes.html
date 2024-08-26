@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias de eSports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Notícias de eSports</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="esportes.html">eSports</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="saude.html">Saúde</a></li>
+                    <li><a href="entretenimento.html">Entretenimento</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-mode">Alternar Modo</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Principais Notícias de eSports</h2>
+                <div class="featured-articles">
+                    <article>
+                        <img src="https://via.placeholder.com/600x400" alt="Notícia em Destaque 1">
+                        <h3>Notícia em Destaque 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://via.placeholder.com/600x400" alt="Notícia em Destaque 2">
+                        <h3>Notícia em Destaque 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <div class="container">
+                <h2>Notícias Recentes de eSports</h2>
+                <div class="news-grid">
+                    <article>
+                        <img src="https://via.placeholder.com/300x200" alt="Notícia Recente 1">
+                        <h3>Notícia Recente 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://via.placeholder.com/300x200" alt="Notícia Recente 2">
+                        <h3>Notícia Recente 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://via.placeholder.com/300x200" alt="Notícia Recente 3">
+                        <h3>Notícia Recente 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Notícias Gerais. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById('toggle-mode');
+        const darkMode = localStorage.getItem('dark-mode') === 'true';
+
+        if (darkMode) {
+            document.body.classList.add('dark-mode');
+        }
+
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
+        });
+    </script>
+</body>
+
+</html>
