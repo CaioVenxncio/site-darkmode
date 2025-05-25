@@ -1,52 +1,54 @@
-# Projeto "Notícias Gerais"
+# "Notícias Gerais" Project
 
-## Descrição do Projeto
+## Project Description
 
-"Notícias Gerais" é um site de notícias fictício, criado para fins educacionais e de demonstração. Este projeto utiliza HTML, CSS, e JavaScript para construir uma página web responsiva que exibe artigos de notícias organizados em várias categorias, incluindo esportes eletrônicos, tecnologia, saúde, e entretenimento.
+"Notícias Gerais" (General News) is a fictional news website created for educational and demonstration purposes. This project uses HTML, CSS, and JavaScript to build a responsive webpage that displays news articles organized into various categories including eSports, technology, health, and entertainment.
 
-## Funcionalidades
+## Features
 
-1. **Cabeçalho com Navegação**: Um cabeçalho fixo na parte superior da página com links de navegação para diferentes seções do site (Início, eSports, Tecnologia, Saúde, e Entretenimento).
-   
-2. **Modo Escuro/Claro**: Um botão para alternar entre o modo escuro e claro, permitindo que os usuários escolham a aparência do site de acordo com sua preferência. A escolha do usuário é armazenada no `localStorage` do navegador para ser aplicada automaticamente na próxima visita.
+1. **Header with Navigation**: A fixed header at the top of the page with navigation links to different site sections (Home, eSports, Technology, Health, and Entertainment).
 
-3. **Destaques**: Uma seção de destaques na página inicial que exibe artigos em destaque com imagens, títulos, resumos, e links para ler mais.
+2. **Dark/Light Mode Toggle**: A button to switch between dark and light mode, allowing users to choose their preferred appearance. The user's choice is saved using the browser's `localStorage` and applied automatically on their next visit.
 
-4. **Últimas Notícias**: Uma seção para exibir as últimas notícias, com um layout em grade que facilita a leitura e a navegação entre os artigos.
+3. **Highlights Section**: A section on the homepage that displays featured articles with images, titles, summaries, and links to read more.
 
-5. **Rodapé**: Inclui informações de direitos autorais.
+4. **Latest News Section**: Displays the latest news in a grid layout for easy reading and navigation between articles.
 
-## Estrutura do Projeto
+5. **Footer**: Includes copyright information.
 
-- **index.html**: O arquivo principal que contém a estrutura HTML da página.
-- **styles.css**: O arquivo CSS externo que contém todos os estilos aplicados à página.
-- **JavaScript embutido**: Contido no próprio arquivo HTML, este script lida com a funcionalidade de alternar entre os modos escuro e claro.
+## Project Structure
 
-## Como Executar o Projeto
+- **index.html**: The main HTML file containing the structure of the page.
+- **styles.css**: The external CSS file with all the styles applied to the page.
+- **Embedded JavaScript**: Included in the HTML file, this script handles the dark/light mode toggle functionality.
 
-Para visualizar o projeto em um navegador, siga as instruções abaixo:
+## How to Run the Project
 
-1. **Clone o repositório**: 
+To view the project in a browser, follow the steps below:
+
+1. **Clone the repository**: 
    ```bash
-   git clone <URL_DO_REPOSITÓRIO>
+   git clone <REPOSITORY_URL>
+   ```
 
-2. **Navegue até o diretório do projeto**:
-     ```bash
-    cd nome-do-diretorio
+2. **Navigate to the project directory**:
+   ```bash
+   cd project-directory-name
+   ```
 
-3. **Abra o arquivo index.html**:
-   No seu navegador de internet preferido, abra o arquivo index.html localizado no diretório do projeto.
+3. **Open the index.html file**:
+   Open the `index.html` file in your preferred web browser.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML5**: Para a estrutura e o conteúdo da página.
-- **CSS3**: Para estilização e layout responsivo.
-- **JavaScript**: Para interatividade e manipulação do DOM, incluindo a implementação do modo escuro/claro.
+- **HTML5**: For the structure and content of the page.
+- **CSS3**: For styling and responsive layout.
+- **JavaScript**: For interactivity and DOM manipulation, including the implementation of the dark/light mode.
 
-## Personalização e Expansão
+## Customization and Expansion
 
-Este projeto pode ser expandido com várias melhorias, como:
+This project can be expanded with several enhancements, such as:
 
-- **Integração com uma API de notícias** para carregar automaticamente os artigos mais recentes.
-- **Sistema de comentários** para permitir que os usuários interajam com os artigos.
-- **Seção de login/registro** para criar uma experiência personalizada para os usuários.
+- **Integration with a news API** to automatically load the latest articles.
+- **Comment system** to allow users to interact with the articles.
+- **Login/registration section** to create a personalized experience for users.
